@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="sDc-Yf-qXA">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="sDc-Yf-qXA">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -10,7 +10,7 @@
         <!--Forecast-->
         <scene sceneID="0Lo-w5-Wtv">
             <objects>
-                <tableViewController id="eHM-TI-dHE" customClass="WeatherTableViewController" customModule="WeatherForecast" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="eHM-TI-dHE" customClass="WeatherTableViewController" customModule="iOS_WeatherApp" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="prs-kB-83n">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -21,10 +21,10 @@
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                             <prototypes>
-                                <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationLevel="4" indentationWidth="10" reuseIdentifier="cell" rowHeight="72" id="JAX-1m-r7M" customClass="TableViewCell" customModule="WeatherForecast" customModuleProvider="target">
+                                <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationLevel="4" indentationWidth="10" reuseIdentifier="cell" rowHeight="72" id="JAX-1m-r7M" customClass="TableViewCell" customModule="iOS_WeatherApp" customModuleProvider="target">
                                     <rect key="frame" x="0.0" y="28" width="414" height="72"/>
                                     <autoresizingMask key="autoresizingMask"/>
-                                    <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="JAX-1m-r7M" id="Cz1-LZ-mdV" customClass="TableViewCell" customModule="WeatherForecast" customModuleProvider="target">
+                                    <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="JAX-1m-r7M" id="Cz1-LZ-mdV" customClass="TableViewCell" customModule="iOS_WeatherApp" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="72"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <subviews>
@@ -96,7 +96,7 @@
         <!--MOW CURR WEATHER-->
         <scene sceneID="LpP-3j-IrD">
             <objects>
-                <viewController title="MOW CURR WEATHER" id="Y1J-nI-Cfd" customClass="ViewController" customModule="SBiOS_m12_dz" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="MOW CURR WEATHER" id="Y1J-nI-Cfd" customClass="ViewController" customModule="iOS_WeatherApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="pbG-09-J71">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -249,7 +249,7 @@
                         <barButtonItem key="backBarButtonItem" title="Main" id="mwv-jg-4mc"/>
                     </navigationItem>
                     <connections>
-                        <outlet property="dateLabel" destination="CWY-uh-udz" id="6gU-iQ-ACe"/>
+                        <outlet property="dateLabel" destination="CWY-uh-udz" id="Pfy-ys-Ltl"/>
                         <outlet property="feelsLike" destination="b3o-nC-TP9" id="0S8-lz-6cg"/>
                         <outlet property="humidity" destination="ZnD-sz-fQh" id="1Vz-It-Rlc"/>
                         <outlet property="mainDescription" destination="D2A-pr-2H0" id="EJa-ce-JzA"/>

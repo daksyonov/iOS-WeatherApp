@@ -11,7 +11,6 @@ import UIKit
 class ViewController: UIViewController {
     
     //MARK: - outlets and other properties
-    
     @IBOutlet weak var mainDescription: UILabel!
     @IBOutlet weak var temperature: UILabel!
     @IBOutlet weak var minTemp: UILabel!
